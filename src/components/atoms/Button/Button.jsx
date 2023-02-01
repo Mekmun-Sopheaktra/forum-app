@@ -3,11 +3,11 @@ import styled, { css } from 'styled-components';
 const Button = styled.button`
   width: ${({ small }) => (small ? '120px' : '240px')};
   height: ${({ small }) => (small ? '35px' : '45px')};
-  background-color: ${({ theme }) => theme.purple};
+  background-color: #7AC04E;
   color: white;
   border: none;
   border-radius: ${({ theme }) => theme.borderRadius};
-  box-shadow: 2px 2px 8px -1px ${({ theme }) => theme.purple};
+  box-shadow: 2px 2px 8px -1px #7AC04E;
   outline: none;
   font-size: ${({ theme, small }) =>
     small ? theme.fontSize.s : theme.fontSize.m};
@@ -15,11 +15,11 @@ const Button = styled.button`
   cursor: pointer;
 
   :hover {
-    box-shadow: 3px 3px 10px -1px ${({ theme }) => theme.purple};
+    box-shadow: 3px 3px 10px -1px #7AC04E;
   }
 
   :active {
-    box-shadow: -1px -1px 12px -1px ${({ theme }) => theme.purple};
+    box-shadow: -1px -1px 12px -1px #7AC04E;
   }
 
   ${({ secondary }) =>

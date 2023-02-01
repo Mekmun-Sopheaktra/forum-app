@@ -6,7 +6,7 @@ export default {
   component: Heading,
 };
 // dla purple dodac knobs ?
-export const PurpleText = () => <Heading purple>Some text</Heading>;
+export const PurpleText = () => <Heading green>Some text</Heading>;
 
 export const LightText = () => <Heading>Some text</Heading>;
 export const LightBoldText = () => <Heading bold>Some text</Heading>;

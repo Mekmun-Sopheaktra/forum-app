@@ -18,7 +18,7 @@ const StyledLink = styled(Heading)`
 
   &.active {
     font-weight: ${({ theme }) => theme.bold};
-    border-bottom: 2px solid ${({ theme }) => theme.purple};
+    border-bottom: 2px solid ${({ theme }) => theme.green};
     padding: 19px 0;
 
     @media (max-width: 700px) {
