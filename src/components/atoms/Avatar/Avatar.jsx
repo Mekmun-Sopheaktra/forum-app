@@ -25,7 +25,7 @@ const StyledImage = styled.img`
       height: 125px;
       border-radius: 60px;
       margin: 25px 0;
-      box-shadow: 0px 0px 0px 3px ${({ theme }) => theme.purple};
+      box-shadow: 0px 0px 0px 3px #7AC04E;
     `}
 `;
 
