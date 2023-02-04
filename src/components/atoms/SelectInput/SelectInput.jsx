@@ -4,6 +4,8 @@ import Select from 'react-select';
 
 const options = [
   { value: 'IT', label: 'IT' },
+  { value: 'Engineering', label: 'Engineering' },
+  { value: 'Developer', label: 'Developer' },
 ];
 
 const customStyles = {

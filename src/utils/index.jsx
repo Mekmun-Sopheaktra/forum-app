@@ -36,4 +36,12 @@ export const tags = [
     name: 'IT',
     isActive: false,
   },
+  {
+    name: 'Engineering',
+    isActive: false,
+  },
+  {
+    name: 'Developer',
+    isActive: false,
+  },
 ];

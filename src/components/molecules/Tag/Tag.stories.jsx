@@ -6,5 +6,5 @@ export default {
   component: Tag,
 };
 
-export const NormalTag = () => <Tag name="UX Design" />;
-export const ActiveTag = () => <Tag name="UX Design" isActive />;
+export const NormalTag = () => <Tag name="IT" />;
+export const ActiveTag = () => <Tag name="IT" isActive />;
